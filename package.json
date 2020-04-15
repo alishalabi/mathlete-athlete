@@ -2,13 +2,15 @@
   "name": "mathlete-athlete",
   "version": "1.0.0",
   "description": "The purpose of this project is to create a library of helpful mathematical operations in JS.",
-  "main": "index.js",
+  "main": "umd/ali_mathlete.js",
+  "module": "esm/mathlete.js", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^25.3.0"
+    "jest": "^25.3.0",
+    "rollup": "^2.6.1"
   }
 }
