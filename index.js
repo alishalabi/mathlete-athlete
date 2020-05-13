@@ -69,7 +69,7 @@ class ImprovedNumber {
   }
 
   tax(rate) {
-    return `$${((rate + 1) * this.value).toFixed(2)}`
+    return ((rate + 1) * this.value).toFixed(2)
   }
 
   interest(total, year, rate) {
@@ -99,5 +99,15 @@ class ImprovedNumber {
 
 }
 
-export default ImprovedNumber;
-// module.exports = ImprovedNumber;
+testNumber = new ImprovedNumber(45.012)
+// console.log(testNumber.goldenRatio)
+// console.log(testNumber.round())
+// console.log(testNumber.floor())
+// console.log(testNumber.ceil())
+// console.log(testNumber.pad(3, 4))
+// console.log(testNumber.degToRad(45))
+// console.log(testNumber.radToDeg(0.785))
+// console.log(testNumber.toDollars())
+// console.log(testNumber.tax(0.08))
+// console.log(testNumber.interest(200, 0.01, 10))
+// console.log(testNumber.totalWithInterest(200, 0.01, 10))

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The purpose of this project is to create a library of helpful mathematical operations in JS.",
   "main": "umd/ali_mathlete.js",
-  "module": "esm/mathlete.js", 
+  "module": "esm/mathlete.js",
   "scripts": {
     "test": "jest"
   },
